@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1d2367b313df412d0f256d948e13433",
+    "revision": "3916a74081b007a74b0bd49af6bfdb46",
     "url": "/jul-i-tyskland/index.html"
   },
   {
-    "revision": "3c6326db86a9bc019570",
-    "url": "/jul-i-tyskland/static/css/main.3cc08a58.chunk.css"
+    "revision": "842d0b109ff6a1e59b75",
+    "url": "/jul-i-tyskland/static/css/main.d9e15eca.chunk.css"
   },
   {
     "revision": "7092ef525c53658bec73",
     "url": "/jul-i-tyskland/static/js/2.30fecca9.chunk.js"
   },
   {
-    "revision": "3c6326db86a9bc019570",
-    "url": "/jul-i-tyskland/static/js/main.5f5b9a0a.chunk.js"
+    "revision": "842d0b109ff6a1e59b75",
+    "url": "/jul-i-tyskland/static/js/main.a78810cd.chunk.js"
   },
   {
     "revision": "21d2f9b09743375649b4",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jul-i-tyskland/static/media/music.1695a1b6.mp3"
   },
   {
-    "revision": "b7e458f05c252f8b8669c4346583bb45",
-    "url": "/jul-i-tyskland/static/media/rudolf.b7e458f0.jpg"
+    "revision": "e0837a8259ef57c2e36d6d7d5d8a063f",
+    "url": "/jul-i-tyskland/static/media/peppis.e0837a82.png"
   },
   {
-    "revision": "e4151db6dbe71ea0b52d573e06b3388e",
-    "url": "/jul-i-tyskland/static/media/santa.e4151db6.gif"
+    "revision": "9cc2ded9fea7f3f7f1a2e338878653b7",
+    "url": "/jul-i-tyskland/static/media/pressbg.9cc2ded9.png"
   },
   {
     "revision": "8fff35cc5ae7610b8f05af1f3ef91ab3",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jul-i-tyskland/precache-manifest.c6cbb57457c2e23e52e0bc913b8f0805.js"
+  "/jul-i-tyskland/precache-manifest.2f7ad278d5fe2fd12cbb65fc721d107b.js"
 );
 
 self.addEventListener('message', (event) => {

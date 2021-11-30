@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/jul-i-tyskland/static/css/main.3cc08a58.chunk.css",
-    "main.js": "/jul-i-tyskland/static/js/main.5f5b9a0a.chunk.js",
-    "main.js.map": "/jul-i-tyskland/static/js/main.5f5b9a0a.chunk.js.map",
+    "main.css": "/jul-i-tyskland/static/css/main.d9e15eca.chunk.css",
+    "main.js": "/jul-i-tyskland/static/js/main.a78810cd.chunk.js",
+    "main.js.map": "/jul-i-tyskland/static/js/main.a78810cd.chunk.js.map",
     "runtime-main.js": "/jul-i-tyskland/static/js/runtime-main.e3f96bc2.js",
     "runtime-main.js.map": "/jul-i-tyskland/static/js/runtime-main.e3f96bc2.js.map",
     "static/js/2.30fecca9.chunk.js": "/jul-i-tyskland/static/js/2.30fecca9.chunk.js",
     "static/js/2.30fecca9.chunk.js.map": "/jul-i-tyskland/static/js/2.30fecca9.chunk.js.map",
     "index.html": "/jul-i-tyskland/index.html",
-    "precache-manifest.c6cbb57457c2e23e52e0bc913b8f0805.js": "/jul-i-tyskland/precache-manifest.c6cbb57457c2e23e52e0bc913b8f0805.js",
+    "precache-manifest.2f7ad278d5fe2fd12cbb65fc721d107b.js": "/jul-i-tyskland/precache-manifest.2f7ad278d5fe2fd12cbb65fc721d107b.js",
     "service-worker.js": "/jul-i-tyskland/service-worker.js",
-    "static/css/main.3cc08a58.chunk.css.map": "/jul-i-tyskland/static/css/main.3cc08a58.chunk.css.map",
+    "static/css/main.d9e15eca.chunk.css.map": "/jul-i-tyskland/static/css/main.d9e15eca.chunk.css.map",
     "static/media/factory001.png": "/jul-i-tyskland/static/media/factory001.8699974b.png",
     "static/media/factory002.png": "/jul-i-tyskland/static/media/factory002.e1ae6f9d.png",
     "static/media/gift.svg": "/jul-i-tyskland/static/media/gift.ce47d7f7.svg",
     "static/media/grassfield.jpg": "/jul-i-tyskland/static/media/grassfield.5fab84c9.jpg",
     "static/media/heart.svg": "/jul-i-tyskland/static/media/heart.06eb5e33.svg",
     "static/media/music.mp3": "/jul-i-tyskland/static/media/music.1695a1b6.mp3",
-    "static/media/rudolf.jpg": "/jul-i-tyskland/static/media/rudolf.b7e458f0.jpg",
-    "static/media/santa.gif": "/jul-i-tyskland/static/media/santa.e4151db6.gif",
+    "static/media/peppis.png": "/jul-i-tyskland/static/media/peppis.e0837a82.png",
+    "static/media/pressbg.png": "/jul-i-tyskland/static/media/pressbg.9cc2ded9.png",
     "static/media/treeFar002.jpg": "/jul-i-tyskland/static/media/treeFar002.8fff35cc.jpg",
     "static/media/treeNear002.jpg": "/jul-i-tyskland/static/media/treeNear002.77707ef4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e3f96bc2.js",
     "static/js/2.30fecca9.chunk.js",
-    "static/css/main.3cc08a58.chunk.css",
-    "static/js/main.5f5b9a0a.chunk.js"
+    "static/css/main.d9e15eca.chunk.css",
+    "static/js/main.a78810cd.chunk.js"
   ]
 }
