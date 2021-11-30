@@ -53,7 +53,7 @@ class BackgroundAnimation extends PureComponent {
         return (<div className='backgroundAnimation'>
             <SnowStorm />
             <audio className="audio" ref="audio_tag" src={treeNear002} controls autoPlay loop/>
-            <h1 className="title">Lauras julekalender</h1>
+            <h1 className="title">Jul i Tyskland</h1>
             <StageView {...this.state} />
             <div className={styles.mainLayout}>
                 {!!children && children}
