@@ -1,0 +1,43 @@
+{
+  "name": "julekalender",
+  "homepage": "http://larsdolvik.github.io/julekalender",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@inlet/react-pixi": "^1.1.9",
+    "pixi.js": "^5.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-anim-kit": "^1.0.18",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0",
+    "react-snowstorm": "0.0.3",
+    "react-util-kit": "0.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

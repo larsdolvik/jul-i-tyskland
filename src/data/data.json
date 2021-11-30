@@ -1,0 +1,176 @@
+{
+  "name": "Laura",
+  "appPath": "/julekalender",
+  "coverImage": "/christmas.jpg",
+  "calendar": [
+    {
+      "id": 1,
+      "mainImage": "/duogjeg/1.jpg",
+      "secondaryImage": "/julekalender/olaf.jpg",
+      "text": "Jeg vet du elsker å reise, så her har du ett gavekort med 200 bonuspoeng hos Norwegian:) AJYX-GUJY-7PAQ-SKQX loveu babe!",
+      "ready": true
+    },
+    {
+      "id": 2,
+      "mainImage": "/duogjeg/2.jpg",
+      "secondaryImage": "/julekalender/mikke.jpg",
+      "text": "Håper du har fått en flott start på uken. Gleder meg masse til du kommer til helgen! Da står jeg for middagen:)",
+      "ready": true
+    },
+    {
+      "id": 3,
+      "mainImage": "/duogjeg/3.jpg",
+      "secondaryImage": "/julekalender/julekalender/santassled.jpg",
+      "text": "Nå som alt stress og lesing setter seg i nakke og rygge så trenger du en 30mins massasje, det får du av meg:) <3",
+      "ready": true
+      
+    },
+    {
+      "id": 4,
+      "mainImage": "/duogjeg/4.jpg",
+      "secondaryImage": "/julekalender/olaf.jpg",
+      "text": "Gledelig 4. Desemeber, skatt. Jeg tar deg med på en Kino-date! Du velger film:)",
+      "ready": true
+    },
+    {
+      "id": 5,
+      "mainImage": "/duogjeg/5.jpg",
+      "secondaryImage": "/julekalender/mikke.jpg",
+      "text": "Gleder meg såå masse til å se deg imorgen:) I dagens luke er det ett gavekort host Perch's :) <3",
+      "ready": true
+    },
+    {
+      "id": 6,
+      "mainImage": "/duogjeg/6.jpg",
+      "secondaryImage": "/julekalender/santassled.jpg",
+      "text": "Nissen har vært på besøk i Parkveien, det ligger noe til deg i skapet ditt:)",
+      "ready": true
+    },
+    {
+      "id": 7,
+      "mainImage": "/duogjeg/7.jpg",
+      "secondaryImage": "/julekalender/olaf.jpg",
+      "text": "Sjekk i kjøleskapet:) Kanskje du finner noen favoritter",
+      "ready": true
+    },
+    {
+      "id": 8,
+      "mainImage": "/duogjeg/8.jpg",
+      "secondaryImage": "/julekalender/mikke.jpg",
+      "text": "Har du hørt om Nissetrikken?",
+      "ready": true
+    },
+    {
+      "id": 9,
+      "mainImage": "/duogjeg/9.jpg",
+      "secondaryImage": "/julekalender/santassled.jpg",
+      "text": "Håper du får en fantastisk start på uken, hilsen kjæresten din, som elsker deg masse<3",
+      "ready": true
+    },
+    {
+      "id": 10,
+      "mainImage": "/duogjeg/10.jpg",
+      "secondaryImage": "/julekalender/olaf.jpg",
+      "text": "Jeg lærer meg en valgfri sang på gitar:)",
+      "ready": true
+    },
+    {
+      "id": 11,
+      "mainImage": "/duogjeg/11.jpg",
+      "secondaryImage": "/julekalender/mikke.jpg",
+      "text": "Du skal få lov til å lage scones sammen med meg. Jeg trenger din hjelp på kjøkkenet for å lage noen gode scones:)",
+      "ready": true
+    },
+    {
+      "id": 12,
+      "mainImage": "/duogjeg/12.jpg",
+      "secondaryImage": "/julekalender/santassled.jpg",
+      "text": "Gleder meg sååå masse til å se deg ikveld:) Safe flight, babe<3",
+      "ready": true
+    },
+    {
+      "id": 13,
+      "mainImage": "/duogjeg/13.jpg",
+      "secondaryImage": "/julekalender/olaf.jpg",
+      "text": "Nissen har lagt noe i julestrømpen for å hjelpe med lesning:)",
+      "ready": true
+    },
+    {
+      "id": 14,
+      "mainImage": "/duogjeg/14.jpg",
+      "secondaryImage": "/julekalender/mikke.jpg",
+      "text": "Jeg er så stolt av deg, skatt! Det blir sååå bra å ta deg med for å møte bestemor og bestefar:) Men først lager jeg frokost!",
+      "ready": true
+    },
+    {
+      "id": 15,
+      "mainImage": "/duogjeg/15.jpg",
+      "secondaryImage": "/julekalender/santassled.jpg",
+      "text": "Jeg liker ikke at du skal reise, men vi ser hverandre heldigvis til helgen igjen:) Loveu<3",
+      "ready": true
+    },
+    {
+      "id": 16,
+      "mainImage": "/duogjeg/16.jpg",
+      "secondaryImage": "/julekalender/olaf.jpg",
+      "text": "",
+      "ready": false
+    },
+    {
+      "id": 17,
+      "mainImage": "/duogjeg/17.jpg",
+      "secondaryImage": "/julekalender/mikke.jpg",
+      "text": "",
+      "ready": false
+    },
+    {
+      "id": 18,
+      "mainImage": "/duogjeg/18.jpg",
+      "secondaryImage": "/julekalender/santassled.jpg",
+      "text": "",
+      "ready": false
+    },
+    {
+      "id": 19,
+      "mainImage": "/duogjeg/19.jpg",
+      "secondaryImage": "/julekalender/olaf.jpg",
+      "text": "",
+      "ready": false
+    },
+    {
+      "id": 20,
+      "mainImage": "/duogjeg/20.jpg",
+      "secondaryImage": "/julekalender/mikke.jpg",
+      "text": "FRedag Aarhus",
+      "ready": false
+    },
+    {
+      "id": 21,
+      "mainImage": "/duogjeg/21.jpg",
+      "secondaryImage": "/julekalender/santassled.jpg",
+      "text": "LØRDAG AARHUS",
+      "ready": false
+    },
+    {
+      "id": 22,
+      "mainImage": "/duogjeg/22.jpeg",
+      "secondaryImage": "/julekalender/olaf.jpg",
+      "text": "SØNDAG AARHUS",
+      "ready": false
+    },
+    {
+      "id": 23,
+      "mainImage": "/duogjeg/23.jpg",
+      "secondaryImage": "/julekalender/mikke.jpg",
+      "text": "",
+      "ready": false
+    },
+    {
+      "id": 24,
+      "mainImage": "/duogjeg/24.jpg",
+      "secondaryImage": "/julekalender/santassled.jpg",
+      "text": ".",
+      "ready": false
+    }
+  ]
+}

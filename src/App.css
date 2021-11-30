@@ -1,0 +1,74 @@
+html {
+  overflow-x: hidden;
+}
+
+html,
+body {
+  font-family: 'Marck Script', cursive;
+}
+
+.app-container {
+  display: flex;
+  position: relative;
+  max-width: 1085px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 200px 0 50px 0;
+}
+
+.app-image-left {
+  width: 200px;
+  position: absolute;
+  transform: translateX(-275px);
+}
+
+.app-image-right {
+  width: 300px;
+  position: absolute;
+  right: 0;
+  transform: translateX(275px) translateY(50px);
+}
+
+.app-image-bottom {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.app-made-with__paragraph {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #963535;
+}
+
+.app-made-with__paragraph img {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+}
+
+.app-bottom-image__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1450px) {
+  .app-container {
+    /* max-width: 800px; */
+  }
+}
+
+@media (max-width: 1350px) {
+  .app-container {
+    /* max-width: 775px; */
+  }
+}
+
+@media (max-width: 1250px) {
+  .app-container {
+    /* max-width: 650px; */
+  }
+}

@@ -1,0 +1,69 @@
+.calendar-day-detail__container {
+  min-height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.calendar-day-detail__inner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0 25px 0;
+}
+
+.calendar-day-detail__box {
+  background-color: #fff;
+  border-radius: 3px;
+  min-height: 400px;
+  display: flex;
+}
+
+.calendar-day-detail__left-container,
+.calendar-day-detail__right-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px;
+}
+
+.calendar-day-detail__gift-icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.calendar-day-detail__right-container {
+  background-color: #963535;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.calendar-day-detail__left-container h1 {
+  font-size: 4rem;
+  color: #963535;
+  margin: 15px 0;
+}
+
+.calendar-day-detail__main-image {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.calendar-detail__text {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar-day-detail__button {
+  background-color: #fff;
+  border: 2px solid #963535;
+  color: #963535;
+  width: 180px;
+  height: 50px;
+  margin: 10px auto;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2rem;
+}

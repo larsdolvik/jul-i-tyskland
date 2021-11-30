@@ -1,0 +1,30 @@
+.calendar-day {
+  height: 85px;
+  width: 85px;
+  background-color: #963535;
+  margin: 10px 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Marck Script';
+  font-size: 4.5rem;
+  cursor: pointer;
+}
+
+.calendar-day--opened {
+  background-color: #fff;
+  border: 2px solid #963535;
+}
+
+.calendar-day-heart {
+  height: 60px;
+  width: 60px;
+}
+
+@media (max-width: 1250px) {
+  .calendar-day {
+    width: 85px;
+    height: 85px;
+  }
+}

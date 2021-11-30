@@ -1,0 +1,122 @@
+.backgroundAnimation {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    /* Rectangle 1 */
+    /* background: linear-gradient(180deg, #203A39 0%, #FFFFFF 102.2%); */
+    background-image: url("/julekalender/christmas.jpg");
+    background-size: cover;
+}
+.pixiStage{
+    width:100%;
+    height:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 0;
+}
+.mainLayout{
+    z-index: 1;
+    position: relative;
+}
+
+.factorInput{
+    color:#FFFFFF;
+    position: fixed;
+    bottom: 10rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    position:fixed;
+    left:0;
+    bottom:0;
+}
+
+.footer >div{
+    flex:1;
+    padding:0 1.5rem;
+}
+.footer >div:last-child{
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    right: 50%;
+}
+
+.scoreItem{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.scoreTitle{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width:100%;
+    color:white;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+}
+.score{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width:100%;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: -0.01rem;
+}
+.score >div{
+    display: inline-flex;
+    padding: 0.2rem 0.5rem;
+}
+.score >div:first-child{
+    background-color: white;
+}
+.score >div:last-child{
+    color: #ffffff;
+    background-color:yellow;
+    min-width: 7rem;
+    justify-content: center;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo img{
+    width: 5rem;
+    height: auto;
+    position: relative;
+    top: -2.5rem;
+}
+
+.audio {
+    position: absolute;
+    top: 0;
+    left:0;
+}
