@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15bd079121ae5b5a1059ad2e7119c478",
+    "revision": "d1d2367b313df412d0f256d948e13433",
     "url": "/jul-i-tyskland/index.html"
   },
   {
-    "revision": "2dd3639b2d05ef286892",
+    "revision": "3c6326db86a9bc019570",
     "url": "/jul-i-tyskland/static/css/main.3cc08a58.chunk.css"
   },
   {
-    "revision": "269fdf69581eff35d812",
-    "url": "/jul-i-tyskland/static/js/2.9d8f11af.chunk.js"
+    "revision": "7092ef525c53658bec73",
+    "url": "/jul-i-tyskland/static/js/2.30fecca9.chunk.js"
   },
   {
-    "revision": "2dd3639b2d05ef286892",
-    "url": "/jul-i-tyskland/static/js/main.0ff80150.chunk.js"
+    "revision": "3c6326db86a9bc019570",
+    "url": "/jul-i-tyskland/static/js/main.5f5b9a0a.chunk.js"
   },
   {
-    "revision": "01171597b7215b54c4ee",
-    "url": "/jul-i-tyskland/static/js/runtime-main.16118dc3.js"
+    "revision": "21d2f9b09743375649b4",
+    "url": "/jul-i-tyskland/static/js/runtime-main.e3f96bc2.js"
   },
   {
     "revision": "8699974be09775bb53eafe98340bc12d",
