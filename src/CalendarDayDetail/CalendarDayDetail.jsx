@@ -14,29 +14,68 @@ class CalendarDayDetail extends Component {
     resetActiveDay();
   };
 
+  video = (videoLeft) => {
+    if(videoLeft !== "") {
+      return <iframe width="600" height="338" src={videoLeft} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  } else {
+    return null;
+  }
+}
+
+  mainImg = (mainImage) => {
+    if(mainImage !== "") {
+      return <img
+        src={process.env.PUBLIC_URL + mainImage}
+        alt="calendar"
+        className="calendar-day-detail__main-image"
+      />
+    } else {
+      return null;
+    }
+  }
+
+  secImg = (secImage) => {
+    if(secImage !== "") {
+      return <img
+        src={process.env.PUBLIC_URL + secImage}
+        alt="calendar"
+        className="calendar-day-detail__main-image"
+      />
+    } else {
+      return null;
+    }
+  }
+
+  rightMedia = (videoRight, secondaryImage) => {
+    if (videoRight !== "") {
+      return <iframe width="600" height="338" src={videoRight} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    } else {
+      return <img
+      src={secondaryImage}
+      alt="calendar"
+      className="calendar-day-detail__secondary-image"
+    />
+    }
+  }
+
   render() {
-    const { id, mainImage, secondaryImage, text } = this.props;
+    const { id, mainImage, secImage, secondaryImage, text1, text2, videoLeft, videoRight } = this.props;
     return (
       <div className="calendar-day-detail__container">
         <FadeIn left by={300} delayBy={0.3}>
           <div className="calendar-day-detail__inner-container">
             <div className="calendar-day-detail__box">
               <div className="calendar-day-detail__left-container">
-                <h1>Luke {id}</h1>
-                <img
-                  src={process.env.PUBLIC_URL + mainImage}
-                  alt="calendar"
-                  className="calendar-day-detail__main-image"
-                />
+                <h1>Låge {id}</h1>
+                {this.mainImg(mainImage)}
+                {this.secImg(secImage)}
+                {this.video(videoLeft)}
               </div>
               <div className="calendar-day-detail__right-container">
                 <img src={giftIcon} alt="gift" className="calendar-day-detail__gift-icon" />
-                <p className="calendar-detail__text">{text}</p>
-                <img
-                  src={secondaryImage}
-                  alt="calendar"
-                  className="calendar-day-detail__secondary-image"
-                />
+                <div className="calendar-detail__text">{text1}</div>
+                <div className="calendar-detail__text">{text2}</div>
+                {this.rightMedia(videoRight, secondaryImage)}
               </div>
             </div>
           </div>

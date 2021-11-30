@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import { Container, Sprite } from '@inlet/react-pixi'
 import * as utils from './utils'
 
-import treeNear001 from './assets/rudolf.jpg'
-import treeFar002 from './assets/treeNear002.jpg'
-import treeFar001 from './assets/treeFar002.jpg'
-import treeNear002 from './assets/santa.gif'
+import treeNear002 from './assets/peppis.png'
+import treeFar001 from './assets/treeNear002.jpg'
+import treeFar002 from './assets/treeFar002.jpg'
+import treeNear001 from './assets/pressbg.png'
 
 const allTrees = {
     near: [
