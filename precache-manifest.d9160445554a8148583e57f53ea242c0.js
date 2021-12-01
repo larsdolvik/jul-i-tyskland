@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9e0ce3484375dc84b79df8853250205",
+    "revision": "d919f84265a32d685ecede85c0e9d86a",
     "url": "/jul-i-tyskland/index.html"
   },
   {
-    "revision": "a56e730e607d84d27a52",
+    "revision": "512c3497b2847defe27f",
     "url": "/jul-i-tyskland/static/css/main.d916807a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jul-i-tyskland/static/js/2.30fecca9.chunk.js"
   },
   {
-    "revision": "a56e730e607d84d27a52",
-    "url": "/jul-i-tyskland/static/js/main.3063f5fb.chunk.js"
+    "revision": "512c3497b2847defe27f",
+    "url": "/jul-i-tyskland/static/js/main.1deff7d1.chunk.js"
   },
   {
     "revision": "21d2f9b09743375649b4",
