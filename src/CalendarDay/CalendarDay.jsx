@@ -5,12 +5,15 @@ import heartIcon from '../images/icons/heart.svg';
 
 class CalendarDay extends Component {
   handleClick = () => {
-    const { setActiveDay, id, mainImage, secImage, secondaryImage, text1, text2, ready, videoLeft, videoRight } = this.props;
-    if(ready) {
-      window.history.pushState({}, '', `#luke${id}`);
-      setActiveDay({ id, mainImage, secImage, secondaryImage, text1, text2, videoLeft, videoRight });
+    const { setActiveDay, id, mainImage, secImage, secondaryImage, text1, text2, videoLeft, videoRight, isReady, isOpened } = this.props;
+    const today = new Date().getDate()
+    if(id <= today) {
+      if(!isOpened){
+        window.history.pushState({}, '', `#luke${id}`);
+        setActiveDay({ id, mainImage, secImage, secondaryImage, text1, text2, videoLeft, videoRight });
+      }
     } else {
-      alert("Du må nok vente litt til..");
+      isReady();
     }
   };
 

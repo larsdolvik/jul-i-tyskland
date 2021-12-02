@@ -4,6 +4,7 @@ import { FadeIn } from 'react-anim-kit';
 
 import CalendarDay from './CalendarDay/CalendarDay';
 import CalendarDayDetail from './CalendarDayDetail/CalendarDayDetail';
+import Modal from './Modal/Modal';
 
 import './App.css';
 
@@ -13,7 +14,8 @@ import BackgroundAnimation from './BackgroundAnimation/index';
 class App extends Component {
   state = {
     opened: [],
-    activeDay: null
+    activeDay: null,
+    isOpened: false
   };
 
   componentDidMount() {
@@ -87,13 +89,21 @@ class App extends Component {
           {...item}
           setActiveDay={this.setActiveDay}
           opened={this.state.opened}
+          isReady={this.hideOrShowModal}
+          isOpened={this.state.isOpened}
         />
       );
     });
   };
 
+  hideOrShowModal = () => {
+    this.setState({ isOpened: !this.state.isOpened });
+  }
+
   render() {
     const { activeDay } = this.state;
+
+    const openedClass = this.state.isOpened ? 'show' : 'hide';
     return (
       <div className="App">
         <BackgroundAnimation numFactor={1} />
@@ -102,7 +112,11 @@ class App extends Component {
           show={
             <FadeIn left by={300} delayBy={0.1}>
               <div className="app-container">
+
                 {/* <img src={olaf} alt="olaf" className="app-image-left" /> */}
+                <div className={`modal ${openedClass}`}>
+                  <Modal handleClick={() => {this.hideOrShowModal()}}/>
+                </div>
                 {this.renderDays()}
                 {/* <img src={mikke} alt="olaf" className="app-image-right" /> */}
                 {/* <div className="app-bottom-image__container">
