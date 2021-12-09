@@ -80,7 +80,7 @@ class CalendarDayDetail extends Component {
             </div>
           </div>
           <button className="calendar-day-detail__button" onClick={this.handleClick}>
-            Tilbake
+            Tilbage
           </button>
         </FadeIn>
       </div>
