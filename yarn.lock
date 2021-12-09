@@ -6814,6 +6814,7 @@
   "version" "1.6.6"
 
 "long@git://github.com/dcodeIO/long.js.git#8181a6b50a2a230f0b2a1e4c4093f9b9d19c8b69":
+  "integrity" "sha512-41qqhzjSRIHpt1l2yH4DrJr7a5dWCly3lZBeFo51dfatVg3mdawXIPdtMxM5lkm3th5pYZCX3c2o/ZzM+46pBQ=="
   "resolved" "git+ssh://git@github.com/dcodeIO/long.js.git#8181a6b50a2a230f0b2a1e4c4093f9b9d19c8b69"
   "version" "4.0.1"
 
