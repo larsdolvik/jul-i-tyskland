@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jul-i-tyskland/static/css/main.ee257c30.chunk.css",
-    "main.js": "/jul-i-tyskland/static/js/main.cf8c9c03.chunk.js",
-    "main.js.map": "/jul-i-tyskland/static/js/main.cf8c9c03.chunk.js.map",
+    "main.css": "/jul-i-tyskland/static/css/main.43db6971.chunk.css",
+    "main.js": "/jul-i-tyskland/static/js/main.435f42cc.chunk.js",
+    "main.js.map": "/jul-i-tyskland/static/js/main.435f42cc.chunk.js.map",
     "runtime-main.js": "/jul-i-tyskland/static/js/runtime-main.e3f96bc2.js",
     "runtime-main.js.map": "/jul-i-tyskland/static/js/runtime-main.e3f96bc2.js.map",
     "static/js/2.1ccd4f97.chunk.js": "/jul-i-tyskland/static/js/2.1ccd4f97.chunk.js",
     "static/js/2.1ccd4f97.chunk.js.map": "/jul-i-tyskland/static/js/2.1ccd4f97.chunk.js.map",
     "index.html": "/jul-i-tyskland/index.html",
-    "precache-manifest.7219bc7eda74903bff095910cc8ba536.js": "/jul-i-tyskland/precache-manifest.7219bc7eda74903bff095910cc8ba536.js",
+    "precache-manifest.f7c45f44ae6663a1a2b0bab57e95ef89.js": "/jul-i-tyskland/precache-manifest.f7c45f44ae6663a1a2b0bab57e95ef89.js",
     "service-worker.js": "/jul-i-tyskland/service-worker.js",
-    "static/css/main.ee257c30.chunk.css.map": "/jul-i-tyskland/static/css/main.ee257c30.chunk.css.map",
+    "static/css/main.43db6971.chunk.css.map": "/jul-i-tyskland/static/css/main.43db6971.chunk.css.map",
     "static/media/factory001.png": "/jul-i-tyskland/static/media/factory001.8699974b.png",
     "static/media/factory002.png": "/jul-i-tyskland/static/media/factory002.e1ae6f9d.png",
     "static/media/gift.svg": "/jul-i-tyskland/static/media/gift.ce47d7f7.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.e3f96bc2.js",
     "static/js/2.1ccd4f97.chunk.js",
-    "static/css/main.ee257c30.chunk.css",
-    "static/js/main.cf8c9c03.chunk.js"
+    "static/css/main.43db6971.chunk.css",
+    "static/js/main.435f42cc.chunk.js"
   ]
 }
