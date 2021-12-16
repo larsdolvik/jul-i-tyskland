@@ -61,6 +61,12 @@
   text-align: center;
 }
 
+.calendar-detail__link {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
 .calendar-day-detail__button {
   background-color: #fff;
   border: 2px solid #963535;

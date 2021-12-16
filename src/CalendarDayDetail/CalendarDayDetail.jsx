@@ -46,20 +46,21 @@ class CalendarDayDetail extends Component {
     }
   }
 
-  rightMedia = (videoRight, secondaryImage) => {
+  rightMedia = (videoRight, secondaryImage, link, linkText) => {
     if (videoRight !== "") {
       return <iframe width="600" height="338" src={videoRight} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    } else {
+    } 
+    if(secondaryImage !== "") {
       return <img
       src={secondaryImage}
       alt="calendar"
       className="calendar-day-detail__secondary-image"
     />
-    }
+    } 
   }
 
   render() {
-    const { id, mainImage, secImage, secondaryImage, text1, text2, videoLeft, videoRight } = this.props;
+    const { id, mainImage, secImage, secondaryImage, text1, text2, videoLeft, videoRight, link, linkText } = this.props;
     return (
       <div className="calendar-day-detail__container">
         <FadeIn left by={300} delayBy={0.3}>
@@ -75,6 +76,7 @@ class CalendarDayDetail extends Component {
                 <img src={giftIcon} alt="gift" className="calendar-day-detail__gift-icon" />
                 <div className="calendar-detail__text">{text1}</div>
                 <div className="calendar-detail__text">{text2}</div>
+                <div className="calendar-detail__link"><a href={link}>{linkText}</a></div>
                 {this.rightMedia(videoRight, secondaryImage)}
               </div>
             </div>
